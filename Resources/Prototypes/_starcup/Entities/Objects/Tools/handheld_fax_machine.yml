@@ -2,7 +2,7 @@
   name: Handheld Fax Machine
   parent: BaseHandheldComputer
   id: HandHeldFax
-  description: A hand-held fax machine.
+  description: A hand-held fax machiner.
   components:
   - type: Item
     sprite: _starcup/Objects/Tools/handheld_fax.rsi
@@ -43,6 +43,7 @@
         type: FaxBoundUi
   - type: ApcPowerReceiver
     needsPower: false
+  - type: ItemSlots
   - type: ContainerContainer
     containers:
       Paper: !type:ContainerSlot
